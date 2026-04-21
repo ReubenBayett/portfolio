@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiArrowUp, FiSettings } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+import { FiArrowUp } from 'react-icons/fi';
 
 import { DataProvider } from './context/DataContext';
 import Navbar from './components/Navbar';

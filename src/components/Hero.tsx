@@ -5,6 +5,7 @@ import { useData } from '../context/DataContext';
 const Hero = () => {
   const { hero, contact } = useData();
 
+  const socialLinks = [
     { icon: FiGithub, href: contact.github, color: '#333', label: 'GitHub' },
     { icon: FiLinkedin, href: contact.linkedin, color: '#0077B5', label: 'LinkedIn' },
   ];

@@ -5,6 +5,7 @@ import { useData } from '../context/DataContext';
 const Footer = () => {
   const { contact, hero } = useData();
 
+  const socialLinks = [
     { icon: FiGithub, href: contact.github, label: 'GitHub', hoverColor: '#333' },
     { icon: FiLinkedin, href: contact.linkedin, label: 'LinkedIn', hoverColor: '#0077B5' },
     { icon: FiMail, href: `mailto:${contact.email}`, label: 'Email', hoverColor: '#EA4335' },
