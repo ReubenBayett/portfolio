@@ -130,7 +130,7 @@ const Skills = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="mt-12 p-6 border-4 border-black bg-white"
         >
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
             <div>
               <p className="font-pixel text-2xl">{skills.length}</p>
               <p className="font-mono text-sm text-gray-600">Technologies</p>
@@ -138,10 +138,6 @@ const Skills = () => {
             <div>
               <p className="font-pixel text-2xl">{categories.length - 1}</p>
               <p className="font-mono text-sm text-gray-600">Categories</p>
-            </div>
-            <div>
-              <p className="font-pixel text-2xl">{Math.round(skills.reduce((a, b) => a + b.level, 0) / skills.length)}%</p>
-              <p className="font-mono text-sm text-gray-600">Avg. Proficiency</p>
             </div>
             <div>
               <p className="font-pixel text-2xl">∞</p>
