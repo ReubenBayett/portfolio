@@ -213,24 +213,7 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Download Resume Button */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.5 }}
-          className="text-center mt-12"
-        >
-          <a
-            href="/resume.pdf"
-            className="inline-flex items-center gap-2 font-pixel text-sm px-8 py-4 
-              border-4 border-black bg-white text-black
-              hover:bg-black hover:text-white transition-colors duration-300
-              shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
-          >
-            DOWNLOAD_RESUME.PDF
-          </a>
-        </motion.div>
+
       </div>
     </section>
   );

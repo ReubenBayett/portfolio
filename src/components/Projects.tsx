@@ -76,7 +76,7 @@ const Projects = () => {
           <h2 className="font-pixel text-2xl md:text-3xl mb-4">PROJECTS</h2>
           <div className="w-16 h-1 bg-black mx-auto mb-4" />
           <p className="font-mono text-gray-600 max-w-2xl mx-auto">
-            A collection of projects I've built, from full-stack applications to open-source tools.
+            A collection of standout full stack applications i've built
           </p>
         </motion.div>
 
